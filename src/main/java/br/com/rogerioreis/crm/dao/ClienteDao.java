@@ -7,6 +7,6 @@ import br.com.rogerioreis.crm.entity.Cliente;
 
 @Repository
 public interface ClienteDao extends JpaRepository<Cliente, Long> {
-	
 
+	Cliente findById(long id);
 }
