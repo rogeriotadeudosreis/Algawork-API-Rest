@@ -27,7 +27,7 @@ public class SwaggerConfig {
 
 	private ApiInfo metaInfo() {
 
-		ApiInfo apiInfo = new ApiInfo("Clientes API REST", "API REST de cadastro de clientes.", "1.0",
+		ApiInfo apiInfo = new ApiInfo("Cliente API REST", "API REST de cadastro de clientes.", "1.0",
 				"Terms of Service",
 				new Contact("Rogério Reis", "https://github.com/rogeriotadeudosreis/Algacrm-api", "rogerio.rtr46@gmail.com"),
 				"Apache License Version 2.0", "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>());
